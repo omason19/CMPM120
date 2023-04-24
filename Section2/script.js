@@ -69,7 +69,7 @@ let config = {
     type: Phaser.WEBGL,
     width: 800,
     height: 600,
-    backgroundcolor: 0x0000ff,
+    backgroundColor: 0x0000ff,
     scene: [oliverGame],
 }
 
