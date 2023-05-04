@@ -11,8 +11,12 @@
             constructor(){
                 super("intro")
             }
+            preload() {
+                this.load.path = './assets/';
+                this.load.image("raccoontrumpet", "trumpetRaccoon.png");
+            }
             create() {
-                this.add.text(10,10,"Click to Begin...");
+                this.add.image(30,200,"raccoontrumpet");
 
                 this.input.on('pointerdown', ()=> this.scene.start('body'));
             }

@@ -12,7 +12,7 @@ class oliverGame extends Phaser.Scene {
         this.graphics.fillStyle(0xff9900, 1); //color, opacity
         this.graphics.fillCircle(100,100,50);   //x, y, radius
         this.graphics.fillTriangle(250, 50, 200, 150, 300, 150); //x1, y1, x2, y2, x3, y3
-        this.graphics.fillEllipse(450, 100, 200, 100, 30);   // x, y, width, height, smoothness
+        this.graphics.fillEllipse(450, 200, 200, 200, 16);   // x, y, width, height, smoothness
 
         //add lines
         this.graphics.lineStyle(5, 0x000000, 1);    //linewidth, color, opacity
@@ -28,7 +28,7 @@ class oliverGame extends Phaser.Scene {
         //create text object
         this.textObject = this.add.text(
             50, //x
-            200,//y
+            500,//y
             "hello world!", //text
             {
                 font: "40px Arial",
@@ -53,9 +53,9 @@ class oliverGame extends Phaser.Scene {
             repeat: -1,
         });
         this.tweens.add({
-            targets: this.imageObject,
+            targets: this.textObject,
             x:500,
-            y:500,
+            y:200,
             duration: 5000,
             ease: 'Linear',
             repeat: -1,
@@ -69,7 +69,7 @@ let config = {
     type: Phaser.WEBGL,
     width: 800,
     height: 600,
-    backgroundColor: 0x0000ff,
+    backgroundColor: 0xa900ff,
     scene: [oliverGame],
 }
 
