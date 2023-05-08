@@ -29,6 +29,17 @@
             }
             create() {
                 this.add.text(10,10,"Body Scene");
+
+                this.input.on('pointerdown', ()=> this.scene.body('menu'));
+            }
+        }
+
+        class Menu extends Phaser.Scene{
+            constructor(){
+                super("menu");
+            }
+            create() {
+                this.add.text()
             }
         }
 
