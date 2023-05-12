@@ -8,7 +8,10 @@ Requirements:
 1+ Fading Animation
 1+ object motion animation
 
-The Raccoon playing the trumpet is a trace of a screenshot from Raccoon Lover Design on Amazon
-I modified the sketch and imported it to Adobe Illustraitor and used a path tracing tool. 
-
-The logo was also created in Illustraitor
+3 scenes: has 3 scenes
+2 audio assets: I recorded the trumpet on bandlab, and used bandlab to slow a clip i found on youtube
+2 image assets: I traced an image in oneNote and then line traced the sketch in adobe illustrator, the scene is a pure sketch from oneNote, the raccoon picture is not manipulated though
+2 shapes: i have 2 circles
+1 logo: created in google draw with a speaker that was made in illustrator
+multi line text: i got text in there
+motion animation: a circle moves back and forth
